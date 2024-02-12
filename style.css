@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#log img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#log h2{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+#menu a{
+    padding: 30px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: .6;
+    font-family: sans-serif;
+    text-decoration: none;
+} 
+
+#signup button{
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 750;
+    font-family: sans-serif;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#searchbox{
+    background-image: url();
+    width: 100%;
+    height: 30vh;
+    border-bottom: 1px solid black; 
+    overflow: hidden;
+}
+
+#searchbox h1{
+    
+    margin-left: 15vw;
+    font-size: 90px;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+#searchbox .searchbutton{
+    gap: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.searchbutton input{
+    width: 30vw;
+    height: 5vh;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.searchbutton img{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#notes{ 
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.nts{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#notes h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+
+} 
+
+.nts h5{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+}
+
+.nts a{
+    
+    padding: 40px;
+    text-decoration: none;
+}
+
+#notes .nts img{
+    margin-top: 40px;
+    width: 150px;
+    height: 160px;
+}
+
+.nts i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 20px;
+    height: 20px;
+    background-color: black;  
+    border-radius: 50px;
+}
+
+#courses{
+    width: 100%;
+} 
+
+#courses h1{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#courses .coursesfolder{
+    margin-top: 10px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content:left ;
+    padding: 50px;
+    text-decoration: none;
+}
+
+.coursesfolder h5{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 20px 0;
+}
+
+.footer-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footer-logo span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-social a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
