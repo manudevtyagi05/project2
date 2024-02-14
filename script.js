@@ -9,9 +9,17 @@ function firstPageAnim(){
     tl.from("#nav", {
         y: '-10',
         opacity: 0,
-        duration: 2,
+        duration: 1.5,
         ease: Expo.easaInOut
     })
+    .to("#texts", {
+        x: 0,
+        duration: 2,
+        delay: -1,
+        ease: Expo.easeInOut,
+        stagger: .2
+    })
+
 }
 
 function circleMouseFollower(){
